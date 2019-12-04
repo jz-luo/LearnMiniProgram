@@ -1,0 +1,5 @@
+/* pages/home/home.wxss */
+.title{
+  color: rgb(82, 76, 76);
+  font-size: 20px;
+}

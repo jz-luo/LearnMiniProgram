@@ -1,0 +1,3 @@
+<!--pages/home/home.wxml-->
+<text class="title">什么鬼程序</text>
+<button size="mini">开始体验</button>
