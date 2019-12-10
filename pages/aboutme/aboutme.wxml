@@ -1,0 +1,9 @@
+<!--pages/aboutme/aboutme.wxml-->
+<!-- 展示用户信息 -->
+<view class="userInfo">
+<view class="userInfoAvatar">
+<open-data type="userAvatarUrl"></open-data>
+</view>
+<open-data type="userNickName"></open-data>
+</view>
+

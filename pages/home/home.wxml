@@ -1,3 +1,19 @@
 <!--pages/home/home.wxml-->
-<text class="title">什么鬼程序</text>
-<button size="mini">开始体验</button>
+
+
+<!-- 列表展示: view wx:for -->
+
+<!-- 事件监听 -->
+
+<!-- 获取用户信息 -->
+<view class="getUserInfoButton">
+<button size="mini" 
+        open-type="getUserInfo" 
+        bindgetuserinfo="handleGetUserInfo">
+获取授权</button>
+</view>
+
+<!-- 小程序的数据绑定:{{}}Mustache 
+<view>{{message}}</view>
+<button size="mini" bindtap="handleBtnClick">test</button>
+-->
